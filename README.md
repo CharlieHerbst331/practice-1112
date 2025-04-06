@@ -2,34 +2,33 @@
 
 Welcome to this interactive tutorial on customizing GitHub Projects for design workflows! This repository will guide you through creating and customizing a design project board using GitHub Projects V2.
 
-## How This Works
-As you complete each step, this README will automatically update to show the next task. Follow along to learn advanced GitHub Projects customization step by step.
+## ✅ Step 1: Create a Design Project and Custom Views
+Congratulations! You've successfully created a design project with multiple views.
 
-## Step 1: Create a Design Project and Custom Views
-Let's start by creating a specialized project board for design workflows and setting up custom views.
+## Step 2: Add Design-Specific Custom Fields
+Now, let's make your design project more powerful by adding custom fields specifically helpful for design workflows.
 
-### 📋 Task: Create a Design Project with Multiple Views
-1. Go to the "Projects" tab at the top of this repository
-2. Click "Create project"
-3. Select "Board" as the template
-4. Name your project "Design Workflow"
-5. Click "Create"
-6. Now, create the following views:
-   - A "Kanban" board view with columns: "Ideation", "Design in Progress", "Ready for Review", "Approved"
-   - A "Table" view called "All Designs"
-   - A "Roadmap" view called "Design Timeline"
+### 📋 Task: Add Custom Fields to Your Design Project
+1. Navigate to your "Design Workflow" project
+2. Go to your "Table" view (or any view)
+3. Click the "+" button in the top right corner of the view
+4. Select "New field"
+5. Create the following fields:
+   - "Design Stage" as a "Single select" with options: Concept, Wireframe, Mockup, Prototype, Final
+   - "Design Type" as a "Single select" with options: UI, UX, Graphic, Illustration, Brand
+   - "Feedback Round" as a "Number" field
+   - "Stakeholders" as a "Text" field
+   - "Due Date" as a "Date" field
 
-To create a new view:
-- Click the dropdown menu next to the current view name (likely "Board")
-- Select "New view"
-- Choose the view type and give it a name
-- Configure the columns/layout as described above
+6. Create a new filter in your Table view:
+   - Click the "Filter" button in the top right
+   - Create a filter to show only items where "Design Stage" is "Mockup" or "Prototype"
 
-Once completed, go to the **Actions** tab and run the "Complete Step 1" workflow to proceed to the next step.
+Once completed, go to the **Actions** tab and run the "Complete Step 2" workflow to proceed to the next step.
 
-### 📚 What are Project Views?
-Views allow you to look at your project data in different ways. A board view helps visualize workflow status, while table views show detailed information in rows and columns. Roadmap views help visualize work along a timeline. Having multiple views of the same data helps teams focus on what matters most for their specific needs.
+### 📚 Custom Fields for Design Work
+Custom fields allow you to track information specific to design workflows. The fields we're adding help track what stage a design is in, what type of design it is, how many feedback rounds it has gone through, who the stakeholders are, and when it's due. These fields make it easier to sort, filter, and organize your design tasks effectively.
 
-### ⏳ Waiting for you to create a design project with custom views...
+### ⏳ Waiting for you to add design-specific custom fields...
 
-<!-- STEP: 1 -->
+<!-- STEP: 2 -->
